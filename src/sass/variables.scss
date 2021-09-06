@@ -1,0 +1,9 @@
+@import "~vuetify/src/styles/styles.sass";
+
+$container-max-widths: map-merge(
+	$container-max-widths,
+	(
+		"sm": 980px,
+		"md": 980px
+	)
+);

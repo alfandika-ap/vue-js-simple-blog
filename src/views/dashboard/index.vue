@@ -1,21 +1,17 @@
 <template>
-	<v-app>
-		<div>
-			<Navbar />
-		</div>
+	<DefaultLayout>
 		<v-fade-transition mode="out-in" :hide-on-leave="false">
-			<router-view />
+			<router-view></router-view>
 		</v-fade-transition>
-	</v-app>
+	</DefaultLayout>
 </template>
 
 <script>
-import Navbar from "@/components/Navbar";
-
+import DefaultLayout from "@/layouts/DefaultLayout";
 export default {
-	name: "App",
+	name: "Dashboard",
 	components: {
-		Navbar
+		DefaultLayout
 	}
 };
 </script>

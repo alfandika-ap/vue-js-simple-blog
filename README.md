@@ -1,24 +1,11 @@
-# simple-blog-app
+# install dependencies
 
-## Project setup
-```
-yarn install
-```
+npm install
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+# serve with hot reload at localhost:8080
 
-### Compiles and minifies for production
-```
-yarn build
-```
+npm run serve
 
-### Lints and fixes files
-```
-yarn lint
-```
+# build for production with minification
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+npm run build
